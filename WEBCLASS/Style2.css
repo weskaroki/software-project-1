@@ -1,0 +1,133 @@
+.one{
+    color: darkcyan;
+}
+h2{
+    color: gold;
+}
+.navbar{
+    width: 100%;
+   background-color: chartreuse;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-space: 0 8px;
+    margin: auto;
+}
+.navbar .logo a{
+    color: darkcyan;
+    text-align: center;
+    text-decoration: none;
+    font-size: 30px;
+}
+.navbar .menu{
+    font-size: 18px;
+    font-weight: 500;
+    color: blue;
+padding: 0 6px;
+    text-decoration: none;
+    display: flex;
+    margin: 0 8px;
+position: relative;
+}
+.navbar  .all-links{
+    position: relative  ;
+display: flex;
+    align-content:center;
+}
+.navbar .all-links li{
+    margin: 0 8px;
+    list-style: none;}
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: url("b4.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+.home .home-cotent{
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.home .text-one{
+    font-size: 25px;
+    color: olive;
+}
+.home .text-two{
+    font-size: 75px;
+    color: darkcyan;
+    font-weight: 600;
+    margin: -3px;
+}
+.home .text-three{
+
+    font-size: 40px;
+    margin: 5px 0;
+    color: chocolate;
+}
+.home .text-four{
+    font-size: 23px;
+    margin: 5px;
+    color: gold;
+}
+.home .button{
+    margin: 14px 0;
+
+}
+.home .button button{
+padding: 10px 16px;
+    outline: none;
+    border-radius: 6px;
+    font-size: 25px;
+font-weight: 404;
+    border: 2px transparent;
+background-color: white;
+    cursor: pointer;
+    color: blue;
+}
+.home .button button:hover{
+    border-color: blue;
+    background-color: white;
+    color:blue;
+
+}
+.about{
+    width: 100%;
+    height: 100vh;
+    background-image :url("img_1.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: sans-serif;
+    text-align: center;
+}
+.about .aboutus{
+    width: 90%;
+    height: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.about .heading{
+    color: white;
+    font-size:30px ;
+}
+.about .text-q{
+    color: white;
+}
+.about .text-p{
+    color: white;
+}
+.button2{
+    border: transparent;
+    font-size: 5px;
+color: white;
+    margin: 14px}
+
